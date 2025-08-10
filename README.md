@@ -1,4 +1,4 @@
-# 💹 Crypto Quotes App
+# 💹 APP - Cotizador de criptomonedas
 
 Aplicación web para **cotizar criptomonedas** en tiempo real, desarrollada en **TypeScript** con **React**, utilizando **Zustand** para el manejo de estado global, **Zod** para validación de datos y **CSS** para estilos personalizados.
 
