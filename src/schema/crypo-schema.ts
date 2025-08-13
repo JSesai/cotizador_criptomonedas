@@ -23,3 +23,4 @@ export const CryptoCurrencyResposeSchema = z.object({
 });
 
 export const CryptoCurrenciesResponseSchema = z.array(currencyResponse);
+
