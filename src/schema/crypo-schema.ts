@@ -24,3 +24,7 @@ export const CryptoCurrencyResposeSchema = z.object({
 
 export const CryptoCurrenciesResponseSchema = z.array(currencyResponse);
 
+export const PairSchema = z.object({
+    currency: z.string(),
+    cryptoCurrency: z.string()
+});
