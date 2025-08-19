@@ -8,6 +8,7 @@ import ErrorMessage from "../ErrorMessage/ErrorMessage";
 export default function CriptoSearchForm() {
 
   const cryptocurrencies = useCryptoStore(state => state.cryptocurrencies);
+  const fetchData = useCryptoStore(state => state.fetchData);
   const [pair, setPair] = useState<Pair>({ currency: '', cryptoCurrency: '' });
   const [error, setError] = useState('');
   const handleChange = ({ target }: React.ChangeEvent<HTMLSelectElement>) => {
@@ -25,8 +26,7 @@ export default function CriptoSearchForm() {
       return;
     }
     setError('');
-
-
+    fetchData(pair)
   }
 
   return (
