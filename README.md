@@ -3,9 +3,9 @@
 Aplicación web para **cotizar criptomonedas** en tiempo real, desarrollada en **TypeScript** con **React**, utilizando **Zustand** para el manejo de estado global, **Zod** para validación de datos y **CSS** para estilos personalizados.
 
 ## 🌐 Demo en vivo
-🔗 [Ver aplicación](https://tudominio.com/crypto-quotes)
+🔗 [Ver aplicación](https://cotizadorkriptomonedas.netlify.app/)
 ## 📸 Captura de pantalla
-![Vista previa de la app](./public/bg.jpg)
+![Vista previa de la app](./public/imagenCriptowebApp.png)
 
 ---
 
